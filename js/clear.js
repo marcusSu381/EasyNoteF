@@ -619,14 +619,14 @@ $(document).ready(function(){
 
 		setTimeout(function() {
 			update()
-		}, 50);
+		}, 100);
 	});
 
 	$(document).hammer().on('tap', '.clndr-next-button', function(){
 
 		setTimeout(function() {
 			update()
-		}, 50);
+		}, 100);
 	});
 	var subModTemplate = $('#sub-mod-template .sub-mod');
 
