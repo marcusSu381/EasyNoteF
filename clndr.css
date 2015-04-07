@@ -1,0 +1,149 @@
+.cal1 {
+  
+  max-width: 320px;
+  font-size: 14px;
+  
+}
+.container{
+	margin: auto;
+	max-width: 320px;
+	overflow-x: hidden;
+	position: relative;
+}
+.clndr-controls{
+	background-color: #2f4f59;
+	height: 67px;
+}
+.month{
+	display:inline-block;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+	font-weight: 300;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 67px;
+	width:200px;
+}
+
+.clndr-control-button{
+	display:inline-block;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 67px;
+	width:60px;
+}
+.clndr-control-button .rightalign{
+	display:inline-block;
+}
+.clndr-table{
+	width:320px;
+}
+.header-days{
+	background-color: #3f6a77;
+	height: 30px;
+}
+.event{
+	background-color: #3f6a77;
+	height: 30px;
+	display: flex;
+
+}
+.event .x{
+	width:50px;
+	text-align: center;
+	color: white;
+	vertical-align: middle;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 30px;
+}
+.event .e{
+	width:220px;
+	text-align: center;
+	color: white;
+	vertical-align: middle;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 30px;
+}
+.header-day{
+	width:45px;
+	text-align: center;
+	color: white;
+	vertical-align: middle;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 30px;
+}
+.day{
+
+	width:45px;
+	text-align: center;
+	color: white;
+	vertical-align: middle;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 30px;
+	height:60px;
+	background:#6db7cd;
+	border-right:1px solid #75c5dd;
+	border-bottom:1px solid #75c5dd;
+}
+
+.dot{
+ margin:auto;
+ width: 10px;
+ height: 2px;
+ background-color: #f97923;
+}
+.last-month{
+	color:#88e4ff;
+}
+.next-month{
+	color:#88e4ff;
+}
+
+.body{
+	margin-top: 67px;
+	width:320px;
+	height:auto;
+	background-color: #e7dfd0;
+	/*margin-left: -320;*/
+	z-index:3;
+}
+
+.twopages{
+	width:640px;
+	display: flex;
+	
+}
+.today{
+	background:#4393ab;
+}
+
+.pressed {
+	-webkit-transition: opacity 0.2s ease-in-out 0s;
+}
+
+#draghere{
+	width:320px;
+	text-align: center;
+	color: #666666;
+	vertical-align: middle;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 67px;
+	height:67px;
+}
