@@ -18,6 +18,7 @@ some bug fixed.
 #EasyNote-Final
 
 updates:
+
 *Add a calendar page.
 
 *User can create their notes base on the calendar.
